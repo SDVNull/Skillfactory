@@ -8,12 +8,10 @@ def arr():  # Создание пустого списка на 9 ячеек
 
 
 def game_table():  # Мегаграфическое исполнение игрового поля
-    print('\t\t\t _________\n' +
-          f'\t\t\t|   0 1 2 |\n' +
-          f'\t\t\t| 0 {num_arr[0][0]} {num_arr[0][1]} {num_arr[0][2]} |\n' +
-          f'\t\t\t| 1 {num_arr[1][0]} {num_arr[1][1]} {num_arr[1][2]} |\n' +
-          f'\t\t\t| 2 {num_arr[2][0]} {num_arr[2][1]} {num_arr[2][2]} |\n' +
-          '\t\t\t _________')
+    print('\t\t\t\t 0 1 2\n' +
+          f'\t\t\t 0 | {num_arr[0][0]} {num_arr[0][1]} {num_arr[0][2]} |\n' +
+          f'\t\t\t 1 | {num_arr[1][0]} {num_arr[1][1]} {num_arr[1][2]} |\n' +
+          f'\t\t\t 2 | {num_arr[2][0]} {num_arr[2][1]} {num_arr[2][2]} |\n')
 
 
 def start_game_priority():  # Выбор начала игры
