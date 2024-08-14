@@ -76,7 +76,7 @@ def vin_condition(ox):  # Определение победной комбина
             if j == 2:
                 vin_col = ''
     if num_arr[1][1] + num_arr[0][2] + num_arr[2][0] == ox * 3 or\
-            num_arr[1][1] + num_arr[0][0] + num_arr[2][2] == ox * 3:
+            num_arr[1][1] + num_arr[0][0] + num_arr[2][2] == ox * 3: # Проверка диагоналей
         vin_game = True
     if vin_game:
         print('Крестики победили' if ox == 'X' else 'Нолики победили')
